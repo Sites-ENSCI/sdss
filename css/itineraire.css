@@ -1,0 +1,203 @@
+#centeroverlay{
+	position: fixed;
+	border: 1px solid #f00;
+	width: 50%;
+	height: 100%;
+	z-index: 99;
+	box-sizing: border-box;
+	display: none;
+}
+
+html, body{
+	margin: 0px;
+	width: 100%;
+	height: 100%;
+	background: #1f1f1f;
+	color: #fff;
+}
+.mainpart{
+	position: relative;
+	background: #1f1f1f;
+	border-bottom: 1px solid #3027240;
+	height: 100%;
+    width: 100%;
+}
+.it-maintext{
+	font-size: 11pt;
+	font-family: "Lora-Regular";
+	margin: 50px auto 0px;
+	width: 800px;
+	letter-spacing: 1px;	
+	line-height: 1.6;
+	text-align: justify;
+	padding-bottom: 150px;
+	padding-left: 70px;
+}
+.maintext-table{
+	display: table;
+}
+.maintext p{
+	text-indent: 100px;
+}
+.verticalcenter{
+	display: table-cell;
+	vertical-align: middle;
+}
+.it-title{
+	font-family: "Caracteres L4";
+	text-align: center;
+	font-size: 50pt;
+	letter-spacing: 3px;
+	width: 100%;
+	margin-bottom: 30px;
+	margin-top: 20px;
+	bottom: 0px;
+	text-shadow: 0 0 0.2em rgb(207, 207, 207);
+}
+.it-title-background{
+	text-align: center;
+	width: 100%;
+	background-color: #1f1f1f;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	box-sizing: border-box;
+	box-shadow: 10px 60px 50px #1f1f1f;
+
+
+}
+.it-subtitle1{
+	font-family: "Caracteres L1";
+	font-size: 16pt;
+	letter-spacing: 2px;
+	margin-top: 45px;
+	margin-bottom: 10px;
+    text-align: left;
+}
+.it-subtitle2{
+	font-family: "Caracteres L4";
+	color: rgb(190, 190, 190);
+    font-size: 16pt;
+    letter-spacing: 1px;
+    text-align: left;
+}
+.credits{
+    font-family: "Lora Thin";
+    color: rgb(155, 155, 155);
+    font-size: 12pt;
+	letter-spacing: 3px;
+	padding-bottom: 20px;
+	text-align: center;
+}
+.menu{
+	opacity: 50;
+	position: fixed;
+	top: 50px;
+	left: 50px;
+	box-sizing: border-box;
+	z-index: 99;
+
+}
+.info-button{
+	position: absolute;
+	top: 0px;
+	left: 7px;
+	width: 50px;
+	height: 50px;
+	z-index: 2;
+	text-align: center;
+}
+.dropdown {
+	position: absolute;
+	display: none;
+	top: -20px;
+	left: -9px;
+	box-sizing: border-box;
+	z-index: 1;
+}
+.panneau{
+	background-color: #fff;
+	padding: 4px 4px 4px 4px;
+	width: 250	0px;
+	height: 191px;
+	border-radius: 10px;
+	box-shadow: 1px 1px 10px rgb(223, 223, 223);
+}
+.panneau-info{
+	width: 70px;
+	height: 70px;
+	margin-top: -67px;
+	margin-left: 5px;
+}
+.panneau-sup{
+	background-color: rgb(255, 255, 255);
+	border: 4px solid rgb(4, 0, 255);
+	border-radius: 10px;
+	width: 250px;
+	height: 70px;
+	border-radius: 10px;
+}
+.panneau-inf{
+	background-color: rgb(255, 255, 255);
+	border: 4px solid rgb(4, 0, 255);
+	border-radius: 10px;
+	margin-top: -4px;
+	width: 250px;
+	height: 109px;
+}
+.panneau-title{
+	font-family: "Caracteres L4";
+	text-align: center;
+	color: black;
+	font-size: 16pt;
+	letter-spacing: 1px;
+	width: 100%;
+	line-height: 0.2;
+	margin-left: 30px;
+	margin-top: 0px;
+	z-index: 2;
+}
+.panneau-subtitle{
+	font-family: "Caracteres L4";
+	text-align: left;
+	color: black;
+	font-size: 16pt;
+	letter-spacing: 2px;
+	width: 100%;
+	line-height: 0.7;
+	margin-left: 8px;
+	margin-top: 10px;
+
+}
+.menu:hover .dropdown{
+	display: block;
+}
+.menu:hover .info-button{
+	display: none;
+}
+.dropdown:hover.dropdown-content {
+    display: block;
+}
+A.class1 {color:rgb(0, 0, 0);
+}
+A.class1:link  {text-decoration: none; color: rgb(0, 0, 0);
+}
+A.class1:visited {text-decoration: none; color: rgb(0, 0, 0);
+}
+A.class1:hover {text-decoration: unone; color: rgb(25, 0, 255);
+}
+A.class1:active {text-decoration: none; color: rgb(0, 0, 0);
+}
+
+A.class2 {color:rgb(255, 255, 255);
+}
+A.class2:link {text-decoration: none; color: rgb(255, 255, 255);
+}
+A.class2:visited {text-decoration: none; color: rgb(255, 255, 255);
+}
+A.class2:hover {text-decoration: underline; color: rgb(255, 255, 255);
+}
+A.class2:active {text-decoration: none; color: rgb(255, 255, 255);
+}
+
+

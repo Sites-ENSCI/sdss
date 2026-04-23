@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+	<meta charset="utf-8">
+	<title>Souvenirs de stations-service</title>
+
+	<link  	href="./fonts/fonts.css" rel="stylesheet" type="text/css" />
+	<link  	href="./css/felix.css" rel="stylesheet" type="text/css" />
+	<script src="./js/jquery-1.11.2.min.js" type="text/javascript"></script>
+	<script src="./js/roadscript.js" 	type="text/javascript"></script>
+
+	<!-- Load the video player js and css -->
+	<link  	href="./css/videoplayer.css" rel="stylesheet" type="text/css" />
+	<script src="./js/videoplayer.js" type="text/javascript"></script>
+	
+</head>
+<body>
+	<div id="centeroverlay"></div>
+	<div class="menu">
+		<div class="info-button">
+			<img src="./media/images/infoteste2.png">
+		</div>
+		<div class="dropdown">
+			<div class="panneau">
+				<div class="panneau-sup">
+					 <div class="panneau-title">
+                        <a href="index.html">
+						<p>Souvenirs de</p>
+                        <p>stations-service</p>
+                        </a>
+                    </div>
+					<div class="panneau-info">
+						<img src="./media/images/infopanneau.png">
+					</div>
+				</div>
+				<div class="panneau-inf">
+						<div class="panneau-subtitle"><a href="itineraire.html">ITINÉRAIRE</a></div>
+						<div class="panneau-subtitle"><a href="bibliographie.html">BIBLIOGRAPHIE</a></div>
+						<div class="panneau-subtitle"><a href="remerciements.html">REMERCIEMENTS</a></div>
+						<div class="panneau-subtitle">  <a href="./media/pdf/versiontexte.pdf" target="_blank">TÉLÉCHARGER EN PDF</a></div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="chapters" id="beginning">
+		<div class="title">Souvenirs de stations-service</div>
+			<div class="maintext">
+				<div class="maintext-table">
+					<div class="verticalcenter">
+						<p>
+							<i>D’interprétations en interprétations je trace mon chemin dans le réel. Face à certaines créations des humains je suis parfois interrogatif. Comme au pied d’un gratte-ciel, je lève les yeux et je me demande comment cette chose en est arrivée à exister. La réponse se trouve dans des questions plus précises : Quelle est l’Histoire de cette chose ? Quel est notre rapport avec elle ? Quel imaginaire s’est développé autour d’elle ? Qu’est ce qu’une chose ?
+						<p>Il est dur de répondre tant il y a de choses différentes. Tiens ! En voilà une ! Mon système perceptif est dans tous ses états. Mes sens, toujours actifs m’apportent la certitude de son existence. En me confrontant à cette chose, j'interprète, je mémorise et j’exécute ce qu'elle attend de moi. Mon interprétation est le reflet de la manière dont elle se joue de moi, dans le temps.
+						<p>
+							Perdu sur une route où le temps peut s’étirer, s’arrêter, et reculer, je décide de m’arrêter quelque part pour décortiquer ma relation avec une chose. Je prends un virage et je rencontre une station-service.
+				
+							Pour la suite des évènements je vous invite à activer le son de votre appareil et afficher le site en plein écran.</i>
+						</p>
+					</div>
+				</div>
+			</div>
+			<div class="gotonextzone">
+				<div class="gotonext1" id="startbutton"><i>En route</i></div>
+			</div>
+	</div>
+	
+		
+	<div class="mainpart scrollarea">
+		<div class="crop-picture" style="background-image:url('./media/images/acceuil.png')"> </div>
+	</div>
+
+
+	<div class="mainpart">
+		<div class="crop-picture" id=Bienvenue style="background-image:url('./media/images/bienvenue.png');"> </div>
+	</div>
+	
+	<div class="chapters" id="chapter-one">
+		<div class="maintext">	
+			<div class="maintext-table">
+				<div class="verticalcenter">
+					<div class="subtitle">Chapitre 1 : Au départ</div>
+						<p>
+							<i>Le point de départ de mon interprétation d'une chose est mon système sensoriel. Mes sens sont des capteurs qui déchiffrent le message envoyé par mon environnement extérieur. Ce sont eux qui me permettent d'interpréter les nuances des couleurs, des saveurs, des odeurs, des tonalités sonores et des textures. Le réel, ce sont toutes ces nuances qui sollicitent ma perception.</i>
+						</p>
+					</div>
+				</div>
+			</div>
+		<div class="gotonextzone2">
+			<div class="gotonext2" id="gobutton-one">Écouter</div>
+		</div>		
+	</div>
+
+	<div class="chapters" id="player-one">
+		<div id="superLecteur1"></div>
+		<div class="gotonextzone3">
+			<div class="gotonext" id="chapitresuivant2">Chapitre suivant</div>
+		</div>	
+		<script type="text/javascript">
+			var videoPlayer1 = new VideoPlayer('superLecteur1', './media/video/chapitre1-0801light.mov'); // function VideoPlayer( id, fileURL )
+			videoPlayer1.subtitles = new Array(
+					{ time:0 , text: 'A. La réception'},
+					{ time:129 , text: ' '},
+					{ time:131 , text: 'B. L\'artifice'},
+					{ time:267 , text: ' '}
+					);
+			videoPlayer1.setTitle('Au Depart');
+		</script>
+	</div>
+
+	<div class="chapters" id="chapter-two">
+		<div class="maintext">	
+			<div class="maintext-table">
+				<div class="verticalcenter">
+					<div class="subtitle">Chapitre 2 : Une station-service.</div>
+						<p>
+							<i>Je n’ai pas le permis de conduire, cela ne m’a pas empêché de pratiquer la station-service. Il en existe de toute sorte, elle ne peut se résumer à une seule forme, à un seul lieu. Son histoire est liée aux progrès réalisés par l’humain dans le domaine de l'automobile et de l’énergétique. Depuis le début du vingtième siècle, la station s’est donc automatisée, et le service avec. Dans ce contexte, à quoi se résume notre expérience en tant que voyageur ? Si l’on parle d'expérience, alors quel rôle joue le créateur ?</i></div>
+				</div>
+			</div>
+		<div class="gotonextzone2">
+			<div class="gotonext2" id="gobutton-two">Écouter</div>
+		</div>		
+	</div>
+
+	<div class="chapters" id="player-two">
+
+		<div id="superLecteur2"></div>
+		<script type="text/javascript">
+			var videoPlayer2 = new VideoPlayer('superLecteur2', './media/video/chapitre2-0801light.mov'); // function VideoPlayer( id, fileURL )
+			videoPlayer2.subtitles = new Array(
+					{ time:0, text: ' '},
+					{ time:36 , text: 'A. Du pétrole au pins'},
+					{ time:205 , text: ' '},
+					{ time:206 , text: 'B. Une expérience standard'},
+					{ time:742 , text: ' '},
+					{ time:743 , text: 'C. Créateurs de stations-service'},
+					{ time:1100 , text: ' '}
+					);
+			videoPlayer2.setTitle('Une station-service');
+		</script>
+		<div class="gotonextzone3">
+			<div class="gotonext" id="chapitresuivant3">Chapitre suivant</div>
+		</div>
+	</div>
+
+	<div class="chapters" id="chapter-trois">
+		<div class="maintext">	
+			<div class="maintext-table">
+				<div class="verticalcenter">
+					<div class="subtitle">Chapitre 3 : Une station-service bondée.</div>
+						<p>
+							<i>J’ai voulu comprendre quel rôle jouait la station-service dans mes voyages. Pour cela je lui ai attribué un état :  la station-service est bondée. L'existence de cette série de mots repose sur des rituels et des éléments de langages. Un rituel est un ensemble d'actes, de paroles et d'objets, codifiés de façon stricte et appropriés à des situations spécifiques de l'existence. Chaque groupe culturel à ses rituels, qu’il garde en mémoire. Ces rituels impactent ce que nous créons de manière générale, par exemple dans la religion, mais aussi la manière dont chacun perçoit ce qui l’entoure. Il est question ici du rapport collectif et intime que nous entretenons avec les choses qui forment notre environnement.
+						
+						<p>
+							Je propose de regarder de plus près la station-service, lorsqu’elle est bondée...</i>
+						</p>
+					</div>
+				</div>
+			</div>
+		<div class="gotonextzone2">
+			<div class="gotonext2" id="gobutton-trois">Écouter</div>
+		</div>		
+	</div>
+
+	<div class="chapters" id="player-trois">
+		<div id="superLecteur3"></div>
+		<script type="text/javascript">
+			var videoPlayer3 = new VideoPlayer('superLecteur3', './media/video/chapitre3-0801light.mov'); // function VideoPlayer( id, fileURL )
+			videoPlayer3.subtitles = new Array(
+					{ time:0 , text: 'A. Le mouvement de masse'},
+					{ time:226 , text: ' '},
+					{ time:227 , text: 'Publicité MOBIL, Monsieur le VIP, 1970'},
+					{ time:273 , text: ' '},
+					{ time:275 , text: 'B. Le rituel'},
+					{ time:622 , text: ' '},
+					{ time:623 , text: 'The Doors - Riders on the Storm (1971)'},
+					{ time:993 , text: ' '}
+					);
+			videoPlayer3.setTitle('Une station-service bondée');
+		</script>
+		<div class="gotonextzone3">
+			<div class="gotonext" id="chapitresuivant4">Chapitre suivant</div>
+		</div>
+	</div>
+
+	<div class="chapters" id="chapter-four">
+			<div class="maintext">	
+				<div class="maintext-table">
+					<div class="verticalcenter">
+						<div class="subtitle">Chapitre 4 : Une station-service bondée un soir d'été.</div>
+							<p>
+									<i>Une station-service bondée un soir d’été… Comment se construit l’image qui nous vient en tête ? Partagée entre le réel et l’imaginaire, entre vécu et fiction, cette image était inédite.
+							</p>
+							<p>
+								Cette écoute est séparée en deux parties. Dans un premier temps, nous aborderons la question de la représentation picturale et de ce qu'elle offre à interpréter (partie 1). Dans un second temps, il sera sujet de photographies et de scènes de cinéma (partie 2).</i>
+							</p>
+						</div>
+					</div>
+				</div>
+			<div class="gotonextzone2">
+				<div class="gotonext2" id="gobutton-four">Écouter</div>
+			</div>		
+	</div>
+	
+	<div class="chapters" id="player-four">
+			
+		<div id="superLecteur4"></div>
+		<script type="text/javascript">
+			var videoPlayer4 = new VideoPlayer('superLecteur4', './media/video/chapitre4-1-0801light.mov'); // function VideoPlayer( id, fileURL )
+			videoPlayer4.subtitles = new Array(
+					{ time:0 , text: 'A. Le soir d\'été'},
+					{ time:220 , text: ' '},
+					{ time:221 , text: 'B. Gas'},
+					{ time:445 , text: ' '},
+					{ time:446 , text: 'C. Un lieu plein'},
+					{ time:748 , text: ' '},
+					{ time:749 , text: 'D. Une oeuvre ouverte'},
+					{ time:858 , text: ' '},
+					{ time:859 , text: 'E. La médiation'},
+					{ time:969 , text: ' '},
+					{ time:970 , text: 'F. Le tableau'},
+					{ time:1088 , text: ' '}
+					);
+			videoPlayer4.setTitle('Une station-service bondée un soir d\'été (part1)');
+		</script>
+		</script>
+		<div class="gotonextzone3">
+			<div class="gotonext" id="chapitresuivant5">Suite</div>
+		</div>
+	</div>
+
+	<div class="chapters" id="chapter-four">
+			<div class="maintext">	
+				<div class="maintext-table">
+					<div class="verticalcenter">
+					</div>
+				</div>
+			<div class="gotonextzone2">
+			</div>		
+	</div>
+
+	<div class="chapters" id="player-five">	
+		
+		<div id="superLecteur5"></div>
+		<script type="text/javascript">
+			var videoPlayer5 = new VideoPlayer('superLecteur5', './media/video/chapitre4-2-0801light.mov'); // function VideoPlayer( id, fileURL )
+			videoPlayer5.subtitles = new Array(
+					{ time:0 , text: 'A.  La photographie'},
+					{ time:458 , text: ' '},
+					{ time:459 , text: 'B. Le cinéma'},
+					{ time:914 , text: ' '},
+					{ time:915 , text: 'C. La structure'},
+					{ time:1183 , text: ' '}
+					);
+			videoPlayer5.setTitle('Une station-service bondée un soir d\'été (part2)');
+		</script>
+		</div>
+		<div class="gotonextzone5">
+			<div class="gotonext" id="chapitresuivant6">Conclusion</div>
+		</div>	
+	</div>
+
+	<div class="conclusion" id="chapter-five">
+		<div class="maintext">	
+			<div class="maintext-table">
+				<div class="verticalcenter">
+					<div class="subtitle">Chapitre 5 : La sortie.</div>
+						<p>
+							Il est l’heure de partir. Peut être que cette escale d’1h15 changera l’expérience de la prochaine station-service que vous rencontrerez. Je vous propose une forme de conclusion avant de reprendre la route. 
+							<p>
+							Je définis finalement la chose, comme un forme d’existence perçue par notre conscience. Elle est un artefact, elle altère notre expérience du réel en définissant la manière dont elle se présente à nous lorsqu’on la rencontre. Cependant, elle est sujet à la subjectivité du moment à laquelle nous la rencontrons. L’expérience d’une chose est donc relative à notre perception. Qu’il s'agisse d’un objet, d’une architecture, d’un lieu ou d’une oeuvre d’art, le message qu’elle nous adresse est codé, et composé de strates. Ces strates sont relatives aux histoires, aux cultures, aux techniques, aux tendances, à tout ce qui rend possible l'existence de cette chose, à commencer par l'existence de l’être humain.
+							</p>
+							<p>
+							La station-service permet permet d’attirer mon attention sur notre époque, sur notre culture, sur notre perception, sur les relations qui se tissent avec les choses.
+							</p>
+							<p>
+							Elle est un lieu entièrement configuré par l’humain. Située au bord des routes, elle est devenue un lieu de passage indispensable pour les véhicules motorisés partout dans le monde. En France, en s’adaptant aux évolutions de l'automobile, elle est devenue multifonctions, tenant le rôle de station-essence, d’aire de repos et de centre commercial. La station-service est une belle preuve de multiplication de couches d’artifices ou d’imbrications d’objets qui permettent à la société contemporaine d’être ce qu’elle est : une société de consommation.
+							</p>
+							<p>
+							Des questions subsistent : Demain, le pétrole risque de disparaître, sans essence la station-service va devoir s’adapter à de nouvelles énergies et de nouveaux modes de déplacements. Comment va-t-elle adapter ses services ? Quel sera son environnement spatial et visuel?
+							</p>
+							<p>
+							Je reprends la route, avec ces quelques questions en tête…
+
+						</p>
+				</div>
+			</div>	
+		</div>
+	</div>
+	<div class="credits">© Félix MARYE - 2018</div>	
+				
+		
+</body>
+</html>
